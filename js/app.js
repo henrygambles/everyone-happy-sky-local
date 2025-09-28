@@ -75,6 +75,12 @@
           {message:"May you feel loved and safe.", color:"#72efdd"},
           {message:"Joy catches on—pass it along.", color:"#ffd166"},
           {message:"A smile finds you today.", color:"#4dabf7"},
+          {message:"May the sunset glow warm your heart.", color:"#ffa94d"},
+          {message:"Sprinkling the sky with rosy cheer.", color:"#f06595"},
+          {message:"Peaceful breaths, bright mornings.", color:"#38d9a9"},
+          {message:"Fresh hope sprouts for you today.", color:"#94d82d"},
+          {message:"Waves of calm drift your way.", color:"#5c7cfa"},
+          {message:"Kindness sparkles wherever you are.", color:"#b197fc"},
         ];
         balloons = seed.map(s => makeBalloon(s));
       }

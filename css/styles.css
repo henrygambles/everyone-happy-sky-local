@@ -43,7 +43,7 @@ dialog::backdrop{background:rgba(3,6,12,.55);backdrop-filter: blur(3px)}
 textarea{width:100%;min-height:100px;border-radius:12px;border:1px solid rgba(255,255,255,.15);padding:.8rem;background:rgba(255,255,255,.03);color:var(--fg);resize:vertical}
 .hint{display:flex;justify-content:flex-end;color:var(--muted);font-size:12px;margin-top:.2rem}
 
-.colors{display:flex;gap:.6rem;margin-top:.2rem}
+.colors{display:flex;gap:.6rem;margin-top:.2rem;flex-wrap:wrap}
 .colors button{width:32px;height:32px;border-radius:50%;border:2px solid rgba(255,255,255,.5);background:var(--c);cursor:pointer;box-shadow:0 0 0 2px rgba(0,0,0,.35) inset}
 .colors button.selected{outline:3px solid var(--ring)}
 
