@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everyone Happy — Balloon Sky</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Release a balloon with a wish, kindness, or gratitude into a shared starry sky." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>Everyone Happy</h1>
+      <p class="tagline">Pass it on.</p>
+      <button id="releaseBtn" class="cta">Release a Balloon 🎈</button>
+    </header>
+
+    <main class="canvas-wrap">
+      <canvas id="sky" aria-label="Balloon sky" role="img"></canvas>
+      <div id="tooltip" class="tooltip" hidden></div>
+    </main>
+
+    <footer class="foot">
+      <div>Made with ❤️ for joy. <span class="dot">•</span> v0.1</div>
+      <button id="clearBtn" class="ghost">Clear My Balloons</button>
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <dialog id="composer">
+    <form method="dialog" id="composerForm" class="composer">
+      <h2>Release a Balloon</h2>
+      <label class="field">
+        <span>Write your wish, kindness, or gratitude</span>
+        <textarea id="message" maxlength="120" placeholder="Wishing you a day full of happiness!"></textarea>
+        <div class="hint"><span id="count">0</span>/120</div>
+      </label>
+
+      <label class="field">
+        <span>Choose a color</span>
+        <div class="colors" id="colors">
+          <button type="button" data-color="#ff6b6b" style="--c:#ff6b6b" aria-label="Red"></button>
+          <button type="button" data-color="#ffd166" style="--c:#ffd166" aria-label="Gold"></button>
+          <button type="button" data-color="#72efdd" style="--c:#72efdd" aria-label="Teal"></button>
+          <button type="button" data-color="#4dabf7" style="--c:#4dabf7" aria-label="Blue"></button>
+          <button type="button" data-color="#b197fc" style="--c:#b197fc" aria-label="Purple"></button>
+          <input id="colorInput" type="hidden" value="#ff6b6b" />
+        </div>
+      </label>
+
+      <menu class="actions">
+        <button value="cancel" class="ghost">Cancel</button>
+        <button value="send" class="primary">Send into the Sky</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
