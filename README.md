@@ -41,4 +41,4 @@ MIT — use freely for joy campaigns. If you publish, a small credit like “Eve
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=henrygambles/everyone-happy-sky-local&type=Date)](https://star-history.com/#henrygambles/everyone-happy-sky-local&Date)
+![Star history](.github/star-history.svg)
