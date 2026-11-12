@@ -38,3 +38,7 @@ A lightweight interactive demo where people can **release a balloon** with a sho
 
 ## 📝 License
 MIT — use freely for joy campaigns. If you publish, a small credit like “Everyone Happy — Balloon Sky” would be lovely.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=henrygambles/everyone-happy-sky-local&type=Date)](https://star-history.com/#henrygambles/everyone-happy-sky-local&Date)
